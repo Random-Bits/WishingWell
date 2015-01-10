@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[RBWWWishDetailsEditingController defineWish:]:RBWWWishDetailsEditingController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[RBWWWishDetailsTableViewController prepareForSegue:sender:]:RBWWWishDetailsTableViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[RBWWWishDetailsEditingController setRightBarButtonItemStateEnabled:]:RBWWWishDetailsEditingController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[RBWWWishDetailsEditingController prepareForSegue:sender:]:RBWWWishDetailsEditingController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[RBWWWishDetailsTableViewController delegate]:RBWWWishDetailsTableViewController.h">
+      </ContextState>
+      <ContextState
+         contextName = "-[RBWWNewWishEditingController viewDidLoad]:RBWWNewWishEditingController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[RBWWWishDetailsTableViewController updateInterface]:RBWWWishDetailsTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.wishPriority.text">
+            </PersistentString>
+            <PersistentString
+               value = "self.wish.priority">
+            </PersistentString>
+            <PersistentString
+               value = "self.wishDescription.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__46-[RBWWWishDetailsTableViewController saveWish]_block_invoke:RBWWWishDetailsTableViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[RBWWWish validateForUpdate]:RBWWWish.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[RBWWWishDetailsEditingController setWish:]:RBWWWishDetailsEditingController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[RBWWWishDetailsEditingController viewDidLoad]:RBWWWishDetailsEditingController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "wishDetails.view.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RBWWWishDetailsTableViewController viewWillAppear:]:RBWWWishDetailsTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.wishPriority.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RBWWWishDetailsTableViewController saveWish]:RBWWWishDetailsTableViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[RBWWWishDetailsTableViewController tableView:cellForRowAtIndexPath:]:RBWWWishDetailsTableViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[RBWWFieldEditorViewController save:]:RBWWFieldEditorViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[RBWWWishDetailsTableViewController updateRightBarButtonItemState]:RBWWWishDetailsTableViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[RBWWNewWishEditingController actionSave:]:RBWWNewWishEditingController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[PFUser currentUser]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

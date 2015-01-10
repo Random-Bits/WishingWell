@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF18B4391A35AE8B00E6D59F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF18B4381A35AE8B00E6D59F /* main.m */; };
+		BF18B43C1A35AE8B00E6D59F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF18B43B1A35AE8B00E6D59F /* AppDelegate.m */; };
+		BF18B4451A35AE8B00E6D59F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF18B4431A35AE8B00E6D59F /* Main.storyboard */; };
+		BF18B4471A35AE8B00E6D59F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF18B4461A35AE8B00E6D59F /* Images.xcassets */; };
+		BF18B44A1A35AE8B00E6D59F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF18B4481A35AE8B00E6D59F /* LaunchScreen.xib */; };
+		BF18B4561A35AE8B00E6D59F /* WishingWellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF18B4551A35AE8B00E6D59F /* WishingWellTests.m */; };
+		BF18B4641A35BC5A00E6D59F /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF18B4601A35BC5A00E6D59F /* Bolts.framework */; };
+		BF18B4651A35BC5A00E6D59F /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF18B4611A35BC5A00E6D59F /* Parse.framework */; };
+		BF18B4661A35BC5A00E6D59F /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF18B4621A35BC5A00E6D59F /* ParseFacebookUtils.framework */; };
+		BF18B4671A35BC5A00E6D59F /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF18B4631A35BC5A00E6D59F /* ParseUI.framework */; };
+		BF18B4771A35C6AC00E6D59F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF18B46D1A35C5CA00E6D59F /* AudioToolbox.framework */; };
+		BF18B47C1A35C87800E6D59F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF18B46F1A35C5E300E6D59F /* CFNetwork.framework */; };
+		BF18B47E1A35C88500E6D59F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF18B47D1A35C88500E6D59F /* CoreGraphics.framework */; };
+		BF18B4801A35C88F00E6D59F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF18B47F1A35C88F00E6D59F /* CoreLocation.framework */; };
+		BF18B4841A35C8B000E6D59F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF18B4831A35C8B000E6D59F /* MobileCoreServices.framework */; };
+		BF18B4861A35C8C100E6D59F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF18B4851A35C8C100E6D59F /* QuartzCore.framework */; };
+		BF18B4881A35C8D300E6D59F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF18B4871A35C8D300E6D59F /* Security.framework */; };
+		BF18B48A1A35C8E700E6D59F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF18B4891A35C8E700E6D59F /* SystemConfiguration.framework */; };
+		BF18B4951A35D8A700E6D59F /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF18B4941A35D8A700E6D59F /* FacebookSDK.framework */; };
+		BF18B4961A35D8F800E6D59F /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF18B48D1A35D6EB00E6D59F /* Twitter.framework */; };
+		BF18B4971A35D95200E6D59F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF18B48B1A35D6DA00E6D59F /* libsqlite3.dylib */; };
+		BF18B4981A35D9AF00E6D59F /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF18B4781A35C70F00E6D59F /* Social.framework */; };
+		BF18B4991A35D9E000E6D59F /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF18B4711A35C63100E6D59F /* libz.1.1.3.dylib */; };
+		BF18B49A1A35D9F600E6D59F /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF18B4731A35C64300E6D59F /* Accounts.framework */; };
+		BF18B49D1A35DEA500E6D59F /* RBWWMyWishesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF18B49C1A35DEA500E6D59F /* RBWWMyWishesTableViewController.m */; };
+		BF18B4A11A35E08900E6D59F /* RBWWWish.m in Sources */ = {isa = PBXBuildFile; fileRef = BF18B4A01A35E08900E6D59F /* RBWWWish.m */; };
+		BF4FB8121A3BABE200573361 /* RBWWWishDetailsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4FB8111A3BABE200573361 /* RBWWWishDetailsTableViewController.m */; };
+		BF62AE671A4D2DE9000F2DE0 /* RBWWWishDetailsEditingController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF62AE661A4D2DE9000F2DE0 /* RBWWWishDetailsEditingController.m */; };
+		BF62AE6A1A4D6B72000F2DE0 /* RBWWNewWishEditingController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF62AE691A4D6B72000F2DE0 /* RBWWNewWishEditingController.m */; };
+		BF62AE701A4FA9BB000F2DE0 /* RBWWFieldEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF62AE6F1A4FA9BB000F2DE0 /* RBWWFieldEditorViewController.m */; };
+		BF62AE731A560A44000F2DE0 /* RBWWUserDataTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF62AE721A560A44000F2DE0 /* RBWWUserDataTabBarController.m */; };
+		BFB646AA1A56136A000C7417 /* RBWWUserRegistrationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB646A91A56136A000C7417 /* RBWWUserRegistrationController.m */; };
+		BFB646AD1A565D2A000C7417 /* RBWWUserProfileController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB646AC1A565D2A000C7417 /* RBWWUserProfileController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF18B4501A35AE8B00E6D59F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF18B42B1A35AE8B00E6D59F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF18B4321A35AE8B00E6D59F;
+			remoteInfo = WishingWell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF18B4331A35AE8B00E6D59F /* WishingWell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WishingWell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF18B4371A35AE8B00E6D59F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF18B4381A35AE8B00E6D59F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF18B43A1A35AE8B00E6D59F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF18B43B1A35AE8B00E6D59F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF18B4441A35AE8B00E6D59F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF18B4461A35AE8B00E6D59F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BF18B4491A35AE8B00E6D59F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BF18B44F1A35AE8B00E6D59F /* WishingWellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WishingWellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF18B4541A35AE8B00E6D59F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF18B4551A35AE8B00E6D59F /* WishingWellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WishingWellTests.m; sourceTree = "<group>"; };
+		BF18B4601A35BC5A00E6D59F /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		BF18B4611A35BC5A00E6D59F /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		BF18B4621A35BC5A00E6D59F /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		BF18B4631A35BC5A00E6D59F /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		BF18B46D1A35C5CA00E6D59F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BF18B46F1A35C5E300E6D59F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		BF18B4711A35C63100E6D59F /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		BF18B4731A35C64300E6D59F /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		BF18B4751A35C65500E6D59F /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		BF18B4781A35C70F00E6D59F /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		BF18B47A1A35C75D00E6D59F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BF18B47D1A35C88500E6D59F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BF18B47F1A35C88F00E6D59F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BF18B4811A35C89F00E6D59F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		BF18B4831A35C8B000E6D59F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		BF18B4851A35C8C100E6D59F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BF18B4871A35C8D300E6D59F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BF18B4891A35C8E700E6D59F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BF18B48B1A35D6DA00E6D59F /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		BF18B48D1A35D6EB00E6D59F /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		BF18B48F1A35D72500E6D59F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		BF18B4911A35D76F00E6D59F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BF18B4941A35D8A700E6D59F /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		BF18B49B1A35DEA500E6D59F /* RBWWMyWishesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBWWMyWishesTableViewController.h; sourceTree = "<group>"; };
+		BF18B49C1A35DEA500E6D59F /* RBWWMyWishesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBWWMyWishesTableViewController.m; sourceTree = "<group>"; };
+		BF18B49F1A35E08900E6D59F /* RBWWWish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBWWWish.h; sourceTree = "<group>"; };
+		BF18B4A01A35E08900E6D59F /* RBWWWish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBWWWish.m; sourceTree = "<group>"; };
+		BF4FB8101A3BABE200573361 /* RBWWWishDetailsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBWWWishDetailsTableViewController.h; sourceTree = "<group>"; };
+		BF4FB8111A3BABE200573361 /* RBWWWishDetailsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBWWWishDetailsTableViewController.m; sourceTree = "<group>"; };
+		BF62AE651A4D2DE9000F2DE0 /* RBWWWishDetailsEditingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBWWWishDetailsEditingController.h; sourceTree = "<group>"; };
+		BF62AE661A4D2DE9000F2DE0 /* RBWWWishDetailsEditingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBWWWishDetailsEditingController.m; sourceTree = "<group>"; };
+		BF62AE681A4D6B72000F2DE0 /* RBWWNewWishEditingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBWWNewWishEditingController.h; sourceTree = "<group>"; };
+		BF62AE691A4D6B72000F2DE0 /* RBWWNewWishEditingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBWWNewWishEditingController.m; sourceTree = "<group>"; };
+		BF62AE6E1A4FA9BB000F2DE0 /* RBWWFieldEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBWWFieldEditorViewController.h; sourceTree = "<group>"; };
+		BF62AE6F1A4FA9BB000F2DE0 /* RBWWFieldEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBWWFieldEditorViewController.m; sourceTree = "<group>"; };
+		BF62AE711A560A44000F2DE0 /* RBWWUserDataTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBWWUserDataTabBarController.h; sourceTree = "<group>"; };
+		BF62AE721A560A44000F2DE0 /* RBWWUserDataTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBWWUserDataTabBarController.m; sourceTree = "<group>"; };
+		BFB646A81A56136A000C7417 /* RBWWUserRegistrationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBWWUserRegistrationController.h; sourceTree = "<group>"; };
+		BFB646A91A56136A000C7417 /* RBWWUserRegistrationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBWWUserRegistrationController.m; sourceTree = "<group>"; };
+		BFB646AB1A565D2A000C7417 /* RBWWUserProfileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBWWUserProfileController.h; sourceTree = "<group>"; };
+		BFB646AC1A565D2A000C7417 /* RBWWUserProfileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBWWUserProfileController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF18B4301A35AE8B00E6D59F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF18B49A1A35D9F600E6D59F /* Accounts.framework in Frameworks */,
+				BF18B4991A35D9E000E6D59F /* libz.1.1.3.dylib in Frameworks */,
+				BF18B4981A35D9AF00E6D59F /* Social.framework in Frameworks */,
+				BF18B4971A35D95200E6D59F /* libsqlite3.dylib in Frameworks */,
+				BF18B4961A35D8F800E6D59F /* Twitter.framework in Frameworks */,
+				BF18B48A1A35C8E700E6D59F /* SystemConfiguration.framework in Frameworks */,
+				BF18B4881A35C8D300E6D59F /* Security.framework in Frameworks */,
+				BF18B4861A35C8C100E6D59F /* QuartzCore.framework in Frameworks */,
+				BF18B4841A35C8B000E6D59F /* MobileCoreServices.framework in Frameworks */,
+				BF18B4801A35C88F00E6D59F /* CoreLocation.framework in Frameworks */,
+				BF18B47E1A35C88500E6D59F /* CoreGraphics.framework in Frameworks */,
+				BF18B47C1A35C87800E6D59F /* CFNetwork.framework in Frameworks */,
+				BF18B4771A35C6AC00E6D59F /* AudioToolbox.framework in Frameworks */,
+				BF18B4651A35BC5A00E6D59F /* Parse.framework in Frameworks */,
+				BF18B4641A35BC5A00E6D59F /* Bolts.framework in Frameworks */,
+				BF18B4671A35BC5A00E6D59F /* ParseUI.framework in Frameworks */,
+				BF18B4661A35BC5A00E6D59F /* ParseFacebookUtils.framework in Frameworks */,
+				BF18B4951A35D8A700E6D59F /* FacebookSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF18B44C1A35AE8B00E6D59F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF18B42A1A35AE8B00E6D59F = {
+			isa = PBXGroup;
+			children = (
+				BF18B45F1A35BC1200E6D59F /* Frameworks */,
+				BF18B4351A35AE8B00E6D59F /* WishingWell */,
+				BF18B4521A35AE8B00E6D59F /* WishingWellTests */,
+				BF18B4341A35AE8B00E6D59F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF18B4341A35AE8B00E6D59F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF18B4331A35AE8B00E6D59F /* WishingWell.app */,
+				BF18B44F1A35AE8B00E6D59F /* WishingWellTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF18B4351A35AE8B00E6D59F /* WishingWell */ = {
+			isa = PBXGroup;
+			children = (
+				BF62AE6D1A4D8426000F2DE0 /* Views */,
+				BF18B49E1A35E06F00E6D59F /* Model */,
+				BF18B4691A35C19100E6D59F /* Controllers */,
+				BF18B4681A35BDCF00E6D59F /* Resorces */,
+				BF18B43A1A35AE8B00E6D59F /* AppDelegate.h */,
+				BF18B43B1A35AE8B00E6D59F /* AppDelegate.m */,
+				BF18B4361A35AE8B00E6D59F /* Supporting Files */,
+			);
+			path = WishingWell;
+			sourceTree = "<group>";
+		};
+		BF18B4361A35AE8B00E6D59F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF18B4481A35AE8B00E6D59F /* LaunchScreen.xib */,
+				BF18B4431A35AE8B00E6D59F /* Main.storyboard */,
+				BF18B4371A35AE8B00E6D59F /* Info.plist */,
+				BF18B4381A35AE8B00E6D59F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF18B4521A35AE8B00E6D59F /* WishingWellTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF18B4551A35AE8B00E6D59F /* WishingWellTests.m */,
+				BF18B4531A35AE8B00E6D59F /* Supporting Files */,
+			);
+			path = WishingWellTests;
+			sourceTree = "<group>";
+		};
+		BF18B4531A35AE8B00E6D59F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF18B4541A35AE8B00E6D59F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF18B45F1A35BC1200E6D59F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF18B4941A35D8A700E6D59F /* FacebookSDK.framework */,
+				BF18B4911A35D76F00E6D59F /* UIKit.framework */,
+				BF18B48F1A35D72500E6D59F /* StoreKit.framework */,
+				BF18B48D1A35D6EB00E6D59F /* Twitter.framework */,
+				BF18B48B1A35D6DA00E6D59F /* libsqlite3.dylib */,
+				BF18B4891A35C8E700E6D59F /* SystemConfiguration.framework */,
+				BF18B4871A35C8D300E6D59F /* Security.framework */,
+				BF18B4851A35C8C100E6D59F /* QuartzCore.framework */,
+				BF18B4831A35C8B000E6D59F /* MobileCoreServices.framework */,
+				BF18B4811A35C89F00E6D59F /* libz.dylib */,
+				BF18B47F1A35C88F00E6D59F /* CoreLocation.framework */,
+				BF18B47D1A35C88500E6D59F /* CoreGraphics.framework */,
+				BF18B47A1A35C75D00E6D59F /* Foundation.framework */,
+				BF18B4781A35C70F00E6D59F /* Social.framework */,
+				BF18B4751A35C65500E6D59F /* AudioUnit.framework */,
+				BF18B4731A35C64300E6D59F /* Accounts.framework */,
+				BF18B4711A35C63100E6D59F /* libz.1.1.3.dylib */,
+				BF18B46F1A35C5E300E6D59F /* CFNetwork.framework */,
+				BF18B46D1A35C5CA00E6D59F /* AudioToolbox.framework */,
+				BF18B4601A35BC5A00E6D59F /* Bolts.framework */,
+				BF18B4611A35BC5A00E6D59F /* Parse.framework */,
+				BF18B4621A35BC5A00E6D59F /* ParseFacebookUtils.framework */,
+				BF18B4631A35BC5A00E6D59F /* ParseUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF18B4681A35BDCF00E6D59F /* Resorces */ = {
+			isa = PBXGroup;
+			children = (
+				BF18B4461A35AE8B00E6D59F /* Images.xcassets */,
+			);
+			name = Resorces;
+			sourceTree = "<group>";
+		};
+		BF18B4691A35C19100E6D59F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BFB646AE1A576608000C7417 /* Wishes */,
+				BFB646AB1A565D2A000C7417 /* RBWWUserProfileController.h */,
+				BFB646AC1A565D2A000C7417 /* RBWWUserProfileController.m */,
+				BF62AE6E1A4FA9BB000F2DE0 /* RBWWFieldEditorViewController.h */,
+				BF62AE6F1A4FA9BB000F2DE0 /* RBWWFieldEditorViewController.m */,
+				BF62AE711A560A44000F2DE0 /* RBWWUserDataTabBarController.h */,
+				BF62AE721A560A44000F2DE0 /* RBWWUserDataTabBarController.m */,
+				BFB646A81A56136A000C7417 /* RBWWUserRegistrationController.h */,
+				BFB646A91A56136A000C7417 /* RBWWUserRegistrationController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		BF18B49E1A35E06F00E6D59F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF18B49F1A35E08900E6D59F /* RBWWWish.h */,
+				BF18B4A01A35E08900E6D59F /* RBWWWish.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BF62AE6D1A4D8426000F2DE0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		BFB646AE1A576608000C7417 /* Wishes */ = {
+			isa = PBXGroup;
+			children = (
+				BF62AE651A4D2DE9000F2DE0 /* RBWWWishDetailsEditingController.h */,
+				BF62AE661A4D2DE9000F2DE0 /* RBWWWishDetailsEditingController.m */,
+				BF62AE681A4D6B72000F2DE0 /* RBWWNewWishEditingController.h */,
+				BF62AE691A4D6B72000F2DE0 /* RBWWNewWishEditingController.m */,
+				BF18B49B1A35DEA500E6D59F /* RBWWMyWishesTableViewController.h */,
+				BF18B49C1A35DEA500E6D59F /* RBWWMyWishesTableViewController.m */,
+				BF4FB8101A3BABE200573361 /* RBWWWishDetailsTableViewController.h */,
+				BF4FB8111A3BABE200573361 /* RBWWWishDetailsTableViewController.m */,
+			);
+			name = Wishes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF18B4321A35AE8B00E6D59F /* WishingWell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF18B4591A35AE8B00E6D59F /* Build configuration list for PBXNativeTarget "WishingWell" */;
+			buildPhases = (
+				BF18B42F1A35AE8B00E6D59F /* Sources */,
+				BF18B4301A35AE8B00E6D59F /* Frameworks */,
+				BF18B4311A35AE8B00E6D59F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WishingWell;
+			productName = WishingWell;
+			productReference = BF18B4331A35AE8B00E6D59F /* WishingWell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF18B44E1A35AE8B00E6D59F /* WishingWellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF18B45C1A35AE8B00E6D59F /* Build configuration list for PBXNativeTarget "WishingWellTests" */;
+			buildPhases = (
+				BF18B44B1A35AE8B00E6D59F /* Sources */,
+				BF18B44C1A35AE8B00E6D59F /* Frameworks */,
+				BF18B44D1A35AE8B00E6D59F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF18B4511A35AE8B00E6D59F /* PBXTargetDependency */,
+			);
+			name = WishingWellTests;
+			productName = WishingWellTests;
+			productReference = BF18B44F1A35AE8B00E6D59F /* WishingWellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF18B42B1A35AE8B00E6D59F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Random Bits";
+				TargetAttributes = {
+					BF18B4321A35AE8B00E6D59F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					BF18B44E1A35AE8B00E6D59F = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = BF18B4321A35AE8B00E6D59F;
+					};
+				};
+			};
+			buildConfigurationList = BF18B42E1A35AE8B00E6D59F /* Build configuration list for PBXProject "WishingWell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF18B42A1A35AE8B00E6D59F;
+			productRefGroup = BF18B4341A35AE8B00E6D59F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF18B4321A35AE8B00E6D59F /* WishingWell */,
+				BF18B44E1A35AE8B00E6D59F /* WishingWellTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF18B4311A35AE8B00E6D59F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF18B4451A35AE8B00E6D59F /* Main.storyboard in Resources */,
+				BF18B44A1A35AE8B00E6D59F /* LaunchScreen.xib in Resources */,
+				BF18B4471A35AE8B00E6D59F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF18B44D1A35AE8B00E6D59F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF18B42F1A35AE8B00E6D59F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF62AE701A4FA9BB000F2DE0 /* RBWWFieldEditorViewController.m in Sources */,
+				BF62AE6A1A4D6B72000F2DE0 /* RBWWNewWishEditingController.m in Sources */,
+				BFB646AA1A56136A000C7417 /* RBWWUserRegistrationController.m in Sources */,
+				BFB646AD1A565D2A000C7417 /* RBWWUserProfileController.m in Sources */,
+				BF62AE671A4D2DE9000F2DE0 /* RBWWWishDetailsEditingController.m in Sources */,
+				BF18B43C1A35AE8B00E6D59F /* AppDelegate.m in Sources */,
+				BF18B4A11A35E08900E6D59F /* RBWWWish.m in Sources */,
+				BF18B49D1A35DEA500E6D59F /* RBWWMyWishesTableViewController.m in Sources */,
+				BF4FB8121A3BABE200573361 /* RBWWWishDetailsTableViewController.m in Sources */,
+				BF62AE731A560A44000F2DE0 /* RBWWUserDataTabBarController.m in Sources */,
+				BF18B4391A35AE8B00E6D59F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF18B44B1A35AE8B00E6D59F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF18B4561A35AE8B00E6D59F /* WishingWellTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF18B4511A35AE8B00E6D59F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF18B4321A35AE8B00E6D59F /* WishingWell */;
+			targetProxy = BF18B4501A35AE8B00E6D59F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF18B4431A35AE8B00E6D59F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF18B4441A35AE8B00E6D59F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF18B4481A35AE8B00E6D59F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF18B4491A35AE8B00E6D59F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF18B4571A35AE8B00E6D59F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF18B4581A35AE8B00E6D59F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF18B45A1A35AE8B00E6D59F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = WishingWell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF18B45B1A35AE8B00E6D59F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = WishingWell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF18B45D1A35AE8B00E6D59F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WishingWellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WishingWell.app/WishingWell";
+			};
+			name = Debug;
+		};
+		BF18B45E1A35AE8B00E6D59F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WishingWellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WishingWell.app/WishingWell";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF18B42E1A35AE8B00E6D59F /* Build configuration list for PBXProject "WishingWell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF18B4571A35AE8B00E6D59F /* Debug */,
+				BF18B4581A35AE8B00E6D59F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF18B4591A35AE8B00E6D59F /* Build configuration list for PBXNativeTarget "WishingWell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF18B45A1A35AE8B00E6D59F /* Debug */,
+				BF18B45B1A35AE8B00E6D59F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF18B45C1A35AE8B00E6D59F /* Build configuration list for PBXNativeTarget "WishingWellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF18B45D1A35AE8B00E6D59F /* Debug */,
+				BF18B45E1A35AE8B00E6D59F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF18B42B1A35AE8B00E6D59F /* Project object */;
+}
