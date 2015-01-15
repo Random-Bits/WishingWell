@@ -7,8 +7,7 @@
 //
 
 
-#import <Foundation/Foundation.h>
-#import <Parse/PFObject.h>
+#import <Parse/Parse.h>
 
 @interface RBWWWish : PFObject <PFSubclassing>
 @property (retain) NSString *shortDescr;
