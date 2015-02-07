@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08806C391A8341D5005DD94B /* RBWWEventDetailsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08806C381A8341D5005DD94B /* RBWWEventDetailsTableViewController.m */; };
+		08806C3C1A841851005DD94B /* RBWWDateFieldEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08806C3B1A841851005DD94B /* RBWWDateFieldEditorViewController.m */; };
+		08806C421A841E39005DD94B /* RBWWEventDetailsEditingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08806C411A841E39005DD94B /* RBWWEventDetailsEditingViewController.m */; };
+		08806C451A848D95005DD94B /* RBWWNewEventEditingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08806C441A848D95005DD94B /* RBWWNewEventEditingViewController.m */; };
 		088F3DEE1A67D6E6000CAE33 /* RBWWEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 088F3DED1A67D6E6000CAE33 /* RBWWEvent.m */; };
+		08AF68D51A77AE6F006AE29C /* RBWWEventsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08AF68D41A77AE6F006AE29C /* RBWWEventsTableViewController.m */; };
+		08AF68D91A77BC7A006AE29C /* NSDate+NSDate_DateFormtting.m in Sources */ = {isa = PBXBuildFile; fileRef = 08AF68D81A77BC7A006AE29C /* NSDate+NSDate_DateFormtting.m */; };
 		BF18B4391A35AE8B00E6D59F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF18B4381A35AE8B00E6D59F /* main.m */; };
 		BF18B43C1A35AE8B00E6D59F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF18B43B1A35AE8B00E6D59F /* AppDelegate.m */; };
 		BF18B4451A35AE8B00E6D59F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF18B4431A35AE8B00E6D59F /* Main.storyboard */; };
@@ -54,8 +60,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08806C371A8341D5005DD94B /* RBWWEventDetailsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBWWEventDetailsTableViewController.h; sourceTree = "<group>"; };
+		08806C381A8341D5005DD94B /* RBWWEventDetailsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBWWEventDetailsTableViewController.m; sourceTree = "<group>"; };
+		08806C3A1A841851005DD94B /* RBWWDateFieldEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBWWDateFieldEditorViewController.h; sourceTree = "<group>"; };
+		08806C3B1A841851005DD94B /* RBWWDateFieldEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBWWDateFieldEditorViewController.m; sourceTree = "<group>"; };
+		08806C401A841E39005DD94B /* RBWWEventDetailsEditingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBWWEventDetailsEditingViewController.h; sourceTree = "<group>"; };
+		08806C411A841E39005DD94B /* RBWWEventDetailsEditingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBWWEventDetailsEditingViewController.m; sourceTree = "<group>"; };
+		08806C431A848D95005DD94B /* RBWWNewEventEditingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBWWNewEventEditingViewController.h; sourceTree = "<group>"; };
+		08806C441A848D95005DD94B /* RBWWNewEventEditingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBWWNewEventEditingViewController.m; sourceTree = "<group>"; };
 		088F3DEC1A67D6E6000CAE33 /* RBWWEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBWWEvent.h; sourceTree = "<group>"; };
 		088F3DED1A67D6E6000CAE33 /* RBWWEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBWWEvent.m; sourceTree = "<group>"; };
+		08AF68D31A77AE6F006AE29C /* RBWWEventsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBWWEventsTableViewController.h; sourceTree = "<group>"; };
+		08AF68D41A77AE6F006AE29C /* RBWWEventsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBWWEventsTableViewController.m; sourceTree = "<group>"; };
+		08AF68D71A77BC7A006AE29C /* NSDate+NSDate_DateFormtting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+NSDate_DateFormtting.h"; sourceTree = "<group>"; };
+		08AF68D81A77BC7A006AE29C /* NSDate+NSDate_DateFormtting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+NSDate_DateFormtting.m"; sourceTree = "<group>"; };
 		BF18B4331A35AE8B00E6D59F /* WishingWell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WishingWell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF18B4371A35AE8B00E6D59F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF18B4381A35AE8B00E6D59F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -146,6 +164,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08AF68D21A77ADC3006AE29C /* EventsControllers */ = {
+			isa = PBXGroup;
+			children = (
+				08806C431A848D95005DD94B /* RBWWNewEventEditingViewController.h */,
+				08806C441A848D95005DD94B /* RBWWNewEventEditingViewController.m */,
+				08806C401A841E39005DD94B /* RBWWEventDetailsEditingViewController.h */,
+				08806C411A841E39005DD94B /* RBWWEventDetailsEditingViewController.m */,
+				08806C371A8341D5005DD94B /* RBWWEventDetailsTableViewController.h */,
+				08806C381A8341D5005DD94B /* RBWWEventDetailsTableViewController.m */,
+				08AF68D31A77AE6F006AE29C /* RBWWEventsTableViewController.h */,
+				08AF68D41A77AE6F006AE29C /* RBWWEventsTableViewController.m */,
+			);
+			name = EventsControllers;
+			sourceTree = "<group>";
+		};
 		BF18B42A1A35AE8B00E6D59F = {
 			isa = PBXGroup;
 			children = (
@@ -182,6 +215,8 @@
 		BF18B4361A35AE8B00E6D59F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				08AF68D71A77BC7A006AE29C /* NSDate+NSDate_DateFormtting.h */,
+				08AF68D81A77BC7A006AE29C /* NSDate+NSDate_DateFormtting.m */,
 				BF18B4481A35AE8B00E6D59F /* LaunchScreen.xib */,
 				BF18B4431A35AE8B00E6D59F /* Main.storyboard */,
 				BF18B4371A35AE8B00E6D59F /* Info.plist */,
@@ -248,7 +283,10 @@
 		BF18B4691A35C19100E6D59F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				BFB646AE1A576608000C7417 /* Wishes */,
+				08806C3A1A841851005DD94B /* RBWWDateFieldEditorViewController.h */,
+				08806C3B1A841851005DD94B /* RBWWDateFieldEditorViewController.m */,
+				08AF68D21A77ADC3006AE29C /* EventsControllers */,
+				BFB646AE1A576608000C7417 /* WishesControllers */,
 				BFB646AB1A565D2A000C7417 /* RBWWUserProfileController.h */,
 				BFB646AC1A565D2A000C7417 /* RBWWUserProfileController.m */,
 				BF62AE6E1A4FA9BB000F2DE0 /* RBWWFieldEditorViewController.h */,
@@ -279,7 +317,7 @@
 			name = Views;
 			sourceTree = "<group>";
 		};
-		BFB646AE1A576608000C7417 /* Wishes */ = {
+		BFB646AE1A576608000C7417 /* WishesControllers */ = {
 			isa = PBXGroup;
 			children = (
 				BF62AE651A4D2DE9000F2DE0 /* RBWWWishDetailsEditingController.h */,
@@ -291,7 +329,7 @@
 				BF4FB8101A3BABE200573361 /* RBWWWishDetailsTableViewController.h */,
 				BF4FB8111A3BABE200573361 /* RBWWWishDetailsTableViewController.m */,
 			);
-			name = Wishes;
+			name = WishesControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -396,13 +434,19 @@
 			files = (
 				BF62AE701A4FA9BB000F2DE0 /* RBWWFieldEditorViewController.m in Sources */,
 				BF62AE6A1A4D6B72000F2DE0 /* RBWWNewWishEditingController.m in Sources */,
+				08806C391A8341D5005DD94B /* RBWWEventDetailsTableViewController.m in Sources */,
 				BFB646AA1A56136A000C7417 /* RBWWUserRegistrationController.m in Sources */,
 				BFB646AD1A565D2A000C7417 /* RBWWUserProfileController.m in Sources */,
+				08AF68D91A77BC7A006AE29C /* NSDate+NSDate_DateFormtting.m in Sources */,
 				BF62AE671A4D2DE9000F2DE0 /* RBWWWishDetailsEditingController.m in Sources */,
 				BF18B43C1A35AE8B00E6D59F /* AppDelegate.m in Sources */,
+				08806C3C1A841851005DD94B /* RBWWDateFieldEditorViewController.m in Sources */,
 				088F3DEE1A67D6E6000CAE33 /* RBWWEvent.m in Sources */,
+				08806C421A841E39005DD94B /* RBWWEventDetailsEditingViewController.m in Sources */,
+				08AF68D51A77AE6F006AE29C /* RBWWEventsTableViewController.m in Sources */,
 				BF18B4A11A35E08900E6D59F /* RBWWWish.m in Sources */,
 				BF18B49D1A35DEA500E6D59F /* RBWWMyWishesTableViewController.m in Sources */,
+				08806C451A848D95005DD94B /* RBWWNewEventEditingViewController.m in Sources */,
 				BF4FB8121A3BABE200573361 /* RBWWWishDetailsTableViewController.m in Sources */,
 				BF62AE731A560A44000F2DE0 /* RBWWUserDataTabBarController.m in Sources */,
 				BF18B4391A35AE8B00E6D59F /* main.m in Sources */,
