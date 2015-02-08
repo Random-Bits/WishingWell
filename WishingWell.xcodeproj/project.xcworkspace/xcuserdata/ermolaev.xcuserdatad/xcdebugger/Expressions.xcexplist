@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[RBWWEventsTableViewController prepareForSegue:sender:]:RBWWEventsTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "newEventViewController.eventForEditing.eventDate">
+            </PersistentString>
+            <PersistentString
+               value = "newEventViewController.eventForEditing.eventOwner">
+            </PersistentString>
+            <PersistentString
+               value = "[NSDate dateWithTimeIntervalSinceNow:0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RBWWEventsTableViewController queryForTable]:RBWWEventsTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "(PFUser *)[PFUser currentUser].objectId">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
