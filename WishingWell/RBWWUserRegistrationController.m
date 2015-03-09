@@ -10,10 +10,10 @@
 #import <Parse/Parse.h>
 #import <ParseUI/ParseUI.h>
 #import "RBWWUserDataTabBarController.h"
+#import "RBWWLoginViewController.h"
 
 @interface RBWWUserRegistrationController () <PFLogInViewControllerDelegate,
-                                              PFSignUpViewControllerDelegate,
-                                              RBWWUserDataTabBarControllerDelegate>
+                                              PFSignUpViewControllerDelegate>
 -(void)presentLoginViewController;
 -(void)presentUserDataController;
 
@@ -50,13 +50,13 @@
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
     if ([[segue identifier] isEqualToString:@"toPFLogin"]) {
-        PFLogInViewController *login = (PFLogInViewController *)[segue destinationViewController];
+        RBWWLoginViewController *login = (RBWWLoginViewController *)[segue destinationViewController];
         login.delegate = self;
     }
-    if ([[segue identifier] isEqualToString:@"toUserData"]) {
-        RBWWUserDataTabBarController  *userData = (RBWWUserDataTabBarController *)[segue destinationViewController];
-        userData.userDataDelegate = self;
-    }
+//    if ([[segue identifier] isEqualToString:@"toUserData"]) {
+//        RBWWUserDataTabBarController  *userData = (RBWWUserDataTabBarController *)[segue destinationViewController];
+//        userData.userDataDelegate = self;
+//    }
 }
 
 #pragma mark UserDataController
@@ -69,7 +69,7 @@
     // Go to the welcome screen and have them log in or create an account.
     
     // Create the log in view controller
-    PFLogInViewController *logInViewController = [[PFLogInViewController alloc] init];
+    RBWWLoginViewController *logInViewController = [[RBWWLoginViewController alloc] init];
     [logInViewController setDelegate:self]; // Set ourselves as the delegate
     
     // Create the sign up view controller
@@ -109,8 +109,10 @@
  @param user <PFUser> object that is a result of the login.
  */
 - (void)logInViewController:(PFLogInViewController *)logInController didLogInUser:(PFUser *)user {
-    [logInController dismissViewControllerAnimated:NO completion:nil];
-    [self performSegueWithIdentifier:@"toUserData" sender:self];
+    __weak RBWWUserRegistrationController *weakSelf = self;
+    [logInController dismissViewControllerAnimated:NO completion:^{
+        [weakSelf performSegueWithIdentifier:@"toUserData" sender:weakSelf];
+    }];
 }
 
 /*!
@@ -136,13 +138,10 @@
     //[self.navigationController popViewControllerAnimated:YES];
 }
 
-#pragma mark - RBWWUserDataTabBarControllerDelegate
--(void)performUserLogoutWithController:(RBWWUserDataTabBarController *)userDataController {
+
+//this one is called by unwind segue from RBWWUserDetailsTableViewController
+-(IBAction)doLogout:(UIStoryboardSegue*)segue{
     [PFUser logOut];
-    [userDataController dismissViewControllerAnimated:NO completion:nil];
-    
-        //[self performSegueWithIdentifier:@"toPFLogin" sender:self];
-    
 }
-     
+
 @end

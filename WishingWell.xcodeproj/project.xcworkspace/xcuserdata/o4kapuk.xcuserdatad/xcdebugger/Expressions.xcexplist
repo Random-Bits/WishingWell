@@ -3,22 +3,65 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "-[RBWWWishDetailsEditingController setRightBarButtonItemStateEnabled:]:RBWWWishDetailsEditingController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[RBWWUserDetailsTableViewController prepareForSegue:sender:]:RBWWUserDetailsTableViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[RBWWUserDetailsTableViewController countWishesForProfile:]:RBWWUserDetailsTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "profile.objectId">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RBWWNewWishEditingController actionSave:]:RBWWNewWishEditingController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[PFUser currentUser]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "-[RBWWWishDetailsEditingController defineWish:]:RBWWWishDetailsEditingController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[RBWWProfile savePhotoWithBlock:]:RBWWProfile.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.thumbnail">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RBWWWishDetailsTableViewController saveWish]:RBWWWishDetailsTableViewController.m">
       </ContextState>
       <ContextState
          contextName = "-[RBWWWishDetailsTableViewController prepareForSegue:sender:]:RBWWWishDetailsTableViewController.m">
       </ContextState>
       <ContextState
-         contextName = "-[RBWWWishDetailsEditingController setRightBarButtonItemStateEnabled:]:RBWWWishDetailsEditingController.m">
+         contextName = "__34-[RBWWProfile savePhotoWithBlock:]_block_invoke_2:RBWWProfile.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "thumbnail.url">
+            </PersistentString>
+         </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "-[RBWWWishDetailsEditingController prepareForSegue:sender:]:RBWWWishDetailsEditingController.m">
+         contextName = "-[RBWWWishDetailsTableViewController tableView:cellForRowAtIndexPath:]:RBWWWishDetailsTableViewController.m">
       </ContextState>
       <ContextState
-         contextName = "-[RBWWWishDetailsTableViewController delegate]:RBWWWishDetailsTableViewController.h">
+         contextName = "-[RBWWProfile getLargeImage]:RBWWProfile.m">
       </ContextState>
       <ContextState
-         contextName = "-[RBWWNewWishEditingController viewDidLoad]:RBWWNewWishEditingController.m">
+         contextName = "-[RBWWUserProfileTableViewController tableView:canEditRowAtIndexPath:]:RBWWUserProfileTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.editing">
+            </PersistentString>
+         </PersistentStrings>
       </ContextState>
       <ContextState
          contextName = "-[RBWWWishDetailsTableViewController updateInterface]:RBWWWishDetailsTableViewController.m">
@@ -35,21 +78,70 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "__46-[RBWWWishDetailsTableViewController saveWish]_block_invoke:RBWWWishDetailsTableViewController.m">
+         contextName = "__45-[RBWWProfile saveAndAssignToUser:withBlock:]_block_invoke_3:RBWWProfile.m">
+      </ContextState>
+      <ContextState
+         contextName = "__36-[RBWWProfile saveProfileWithBlock:]_block_invoke:RBWWProfile.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "weakSelf.thumbnail.url">
+            </PersistentString>
+            <PersistentString
+               value = "weakSelf.profilePhoto.url">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RBWWUserProfileController tableView:didSelectRowAtIndexPath:]:RBWWUserProfileController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[indexPath section]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__34-[RBWWProfile savePhotoWithBlock:]_block_invoke:RBWWProfile.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "weakSelf.profilePhoto.url">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__66+[RBWWProfile requestProfileForEmail:selected:created:photoReady:]_block_invoke_2:RBWWProfile.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[RBWWUserDetailsTableViewController updateUI]:RBWWUserDetailsTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.profile.profilePhoto.url">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RBWWUserDetailsTableViewController viewDidLoad]:RBWWUserDetailsTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[PFUser currentUser]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__60-[RBWWUserDetailsTableViewController countWishesForProfile:]_block_invoke_2:RBWWUserDetailsTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "error">
+            </PersistentString>
+         </PersistentStrings>
       </ContextState>
       <ContextState
          contextName = "-[RBWWWish validateForUpdate]:RBWWWish.m">
       </ContextState>
       <ContextState
-         contextName = "-[RBWWWishDetailsEditingController setWish:]:RBWWWishDetailsEditingController.m">
+         contextName = "-[RBWWWishDetailsEditingController prepareForSegue:sender:]:RBWWWishDetailsEditingController.m">
       </ContextState>
       <ContextState
-         contextName = "-[RBWWWishDetailsEditingController viewDidLoad]:RBWWWishDetailsEditingController.m">
-         <PersistentStrings>
-            <PersistentString
-               value = "wishDetails.view.frame">
-            </PersistentString>
-         </PersistentStrings>
+         contextName = "-[RBWWWishDetailsTableViewController updateRightBarButtonItemState]:RBWWWishDetailsTableViewController.m">
       </ContextState>
       <ContextState
          contextName = "-[RBWWWishDetailsTableViewController viewWillAppear:]:RBWWWishDetailsTableViewController.m">
@@ -60,24 +152,55 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "-[RBWWWishDetailsTableViewController saveWish]:RBWWWishDetailsTableViewController.m">
+         contextName = "-[RBWWUserProfileTableViewController imagePickerController:didFinishPickingMediaWithInfo:]:RBWWUserProfileTableViewController.m">
       </ContextState>
       <ContextState
-         contextName = "-[RBWWWishDetailsTableViewController tableView:cellForRowAtIndexPath:]:RBWWWishDetailsTableViewController.m">
+         contextName = "-[RBWWWishDetailsEditingController viewDidLoad]:RBWWWishDetailsEditingController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "wishDetails.view.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RBWWWishDetailsTableViewController delegate]:RBWWWishDetailsTableViewController.h">
+      </ContextState>
+      <ContextState
+         contextName = "-[RBWWProfile notEqualTo:]:RBWWProfile.m">
       </ContextState>
       <ContextState
          contextName = "-[RBWWFieldEditorViewController save:]:RBWWFieldEditorViewController.m">
       </ContextState>
       <ContextState
-         contextName = "-[RBWWWishDetailsTableViewController updateRightBarButtonItemState]:RBWWWishDetailsTableViewController.m">
+         contextName = "__46-[RBWWWishDetailsTableViewController saveWish]_block_invoke:RBWWWishDetailsTableViewController.m">
       </ContextState>
       <ContextState
-         contextName = "-[RBWWNewWishEditingController actionSave:]:RBWWNewWishEditingController.m">
+         contextName = "-[RBWWNewWishEditingController viewDidLoad]:RBWWNewWishEditingController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[RBWWProfile setProfileImageWithData:]:RBWWProfile.m">
          <PersistentStrings>
             <PersistentString
-               value = "[PFUser currentUser]">
+               value = "self.profilePhoto">
             </PersistentString>
          </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RBWWUserDetailsTableViewController doSaveProfileEdit:]:RBWWUserDetailsTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.profile.firstName">
+            </PersistentString>
+            <PersistentString
+               value = "upc.profile.lastName">
+            </PersistentString>
+            <PersistentString
+               value = "self.profile.lastName">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RBWWWishDetailsEditingController setWish:]:RBWWWishDetailsEditingController.m">
       </ContextState>
    </ContextStates>
 </VariablesViewState>

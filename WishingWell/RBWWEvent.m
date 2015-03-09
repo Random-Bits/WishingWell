@@ -25,7 +25,7 @@
     if (!self.eventDate) {
         return  NO;
     }
-    if (!self.eventOwner) {
+    if (!self.ownersProfile) {
         return NO;
     }
     return YES;
@@ -33,5 +33,5 @@
 
 @dynamic eventDescr;
 @dynamic eventDate;
-@dynamic eventOwner;
+@dynamic ownersProfile;
 @end

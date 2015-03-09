@@ -107,7 +107,7 @@
         query.cachePolicy = kPFCachePolicyCacheThenNetwork;
     }
     
-    [query whereKey:@"eventOwner" equalTo:[PFUser currentUser]];
+    [query whereKey:@"ownersProfile" equalTo:self.profile];
     [query orderByDescending:@"eventDate"];
     
     return query;
@@ -228,7 +228,7 @@
         newEventViewController.eventForEditing = [RBWWEvent object];
         newEventViewController.eventForEditing.eventDescr = @"New Event";
         newEventViewController.eventForEditing.eventDate = [NSDate dateWithTimeIntervalSinceNow:0];
-        [newEventViewController.eventForEditing setEventOwner:[PFUser currentUser]];
+        [newEventViewController.eventForEditing setOwnersProfile:self.profile];
     }
     
     if ([[segue identifier] isEqualToString:@"toEventDetails"]) {

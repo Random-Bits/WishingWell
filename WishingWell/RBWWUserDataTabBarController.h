@@ -7,14 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-@class RBWWUserDataTabBarController;
-
-@protocol RBWWUserDataTabBarControllerDelegate <NSObject>
-
--(void)performUserLogoutWithController:(RBWWUserDataTabBarController *)userDataController;
-
-@end
 
 @interface RBWWUserDataTabBarController : UITabBarController
-@property (nonatomic, weak) id<RBWWUserDataTabBarControllerDelegate> userDataDelegate;
 @end

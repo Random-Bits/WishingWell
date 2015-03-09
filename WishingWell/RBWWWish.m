@@ -26,7 +26,7 @@
     if (!self.priority) {
         return  NO;
     }
-    if (!self.owner) {
+    if (!self.ownersProfile) {
         return NO;
     }
     return YES;
@@ -34,6 +34,6 @@
 
 @dynamic shortDescr;
 @dynamic priority;
-@dynamic owner;
+@dynamic ownersProfile;
 
 @end

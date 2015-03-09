@@ -7,7 +7,8 @@
 //
 
 #import <ParseUI/ParseUI.h>
+#import "RBWWProfile.h"
 
 @interface RBWWEventsTableViewController : PFQueryTableViewController
-
+@property(nonatomic,strong) RBWWProfile *profile;
 @end

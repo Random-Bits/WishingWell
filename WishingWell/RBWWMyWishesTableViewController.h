@@ -7,9 +7,10 @@
 //
 
 #import <ParseUI/ParseUI.h>
+#import "RBWWProfile.h"
 
 @class RBWWMyWishesTableViewController;
 
 @interface RBWWMyWishesTableViewController : PFQueryTableViewController
-
+@property (nonatomic,weak) RBWWProfile *profile;
 @end

@@ -136,7 +136,7 @@
         query.cachePolicy = kPFCachePolicyCacheThenNetwork;
     }
     
-    [query whereKey:@"owner" equalTo:[PFUser currentUser]];
+    [query whereKey:@"ownersProfile" equalTo:self.profile];
     //[query orderByAscending:@"priority"];
     
     return query;
@@ -256,7 +256,7 @@
 //        newWishViewController.delegate = self;
         newWishViewController.wishForEditing = [RBWWWish object];
         newWishViewController.wishForEditing.priority = @"Low";
-        [newWishViewController.wishForEditing setOwner:[PFUser currentUser]];
+        [newWishViewController.wishForEditing setOwnersProfile:self.profile];
     }
     
     if ([[segue identifier] isEqualToString:@"toMyWishDetails"]) {

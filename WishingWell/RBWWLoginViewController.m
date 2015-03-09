@@ -1,18 +1,18 @@
 //
-//  RBWWUserProfileController.m
+//  RBWWLoginViewController.m
 //  WishingWell
 //
-//  Created by Anatoly Ermolaev on 2/01/2015.
+//  Created by Anatoly Ermolaev on 22/02/2015.
 //  Copyright (c) 2015 Random Bits. All rights reserved.
 //
 
-#import "RBWWUserProfileController.h"
+#import "RBWWLoginViewController.h"
 
-@interface RBWWUserProfileController ()
+@interface RBWWLoginViewController ()
 
 @end
 
-@implementation RBWWUserProfileController
+@implementation RBWWLoginViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -33,8 +33,5 @@
     // Pass the selected object to the new view controller.
 }
 */
-- (IBAction)logoutAction:(id)sender {
-    [self.delegate performLogoutWithUserProfileController:self];
-}
 
 @end

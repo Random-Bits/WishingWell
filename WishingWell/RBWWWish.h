@@ -8,11 +8,12 @@
 
 
 #import <Parse/Parse.h>
+#import "RBWWProfile.h"
 
 @interface RBWWWish : PFObject <PFSubclassing>
 @property (retain) NSString *shortDescr;
 @property (retain) NSString *priority;
-@property (retain) PFUser *owner;
+@property (retain) RBWWProfile *ownersProfile;
 + (NSString *)parseClassName;
 -(BOOL)validateForUpdate;
 @end

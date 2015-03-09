@@ -7,11 +7,12 @@
 //
 
 #import <Parse/Parse.h>
+#import "RBWWProfile.h"
 
 @interface RBWWEvent : PFObject<PFSubclassing>
 @property (retain) NSString *eventDescr;
 @property (retain) NSDate *eventDate;
-@property (retain) PFUser *eventOwner;
+@property (retain) RBWWProfile *ownersProfile;
 + (NSString *)parseClassName;
 -(BOOL)isValidForUpdate;
 

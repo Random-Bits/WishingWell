@@ -7,10 +7,9 @@
 //
 
 #import "RBWWUserDataTabBarController.h"
-#import "RBWWUserProfileController.h"
+#import "RBWWUserDetailsTableViewController.h"
 
-@interface RBWWUserDataTabBarController () <RBWWUserProfileControllerDelegate>
-
+@interface RBWWUserDataTabBarController ()
 @end
 
 @implementation RBWWUserDataTabBarController
@@ -18,12 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    NSArray *vcList = self.viewControllers;
-    for (UIViewController *vc in vcList) {
-        if ([vc isMemberOfClass:[RBWWUserProfileController class]]) {
-            ((RBWWUserProfileController *)vc).delegate = self;
-        }
-    }
 }
 
 - (void)didReceiveMemoryWarning {
@@ -44,10 +37,5 @@
 }
 */
 
-#pragma mark - RBWWUserProfileControllerDelegate
-
--(void)performLogoutWithUserProfileController:(RBWWUserProfileController *)profileController {
-    [self.userDataDelegate performUserLogoutWithController:self];
-}
 
 @end

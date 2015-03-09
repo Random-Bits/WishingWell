@@ -41,12 +41,20 @@
 		BF18B49D1A35DEA500E6D59F /* RBWWMyWishesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF18B49C1A35DEA500E6D59F /* RBWWMyWishesTableViewController.m */; };
 		BF18B4A11A35E08900E6D59F /* RBWWWish.m in Sources */ = {isa = PBXBuildFile; fileRef = BF18B4A01A35E08900E6D59F /* RBWWWish.m */; };
 		BF4FB8121A3BABE200573361 /* RBWWWishDetailsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4FB8111A3BABE200573361 /* RBWWWishDetailsTableViewController.m */; };
+		BF594DA91A872E6800014E2B /* RBWWProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = BF594DA81A872E6800014E2B /* RBWWProfile.m */; };
+		BF594DAC1A9977C800014E2B /* RBWWLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF594DAB1A9977C800014E2B /* RBWWLoginViewController.m */; };
+		BF594DB01A999D1800014E2B /* RBWWUserDetailsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF594DAF1A999D1800014E2B /* RBWWUserDetailsTableViewController.m */; };
 		BF62AE671A4D2DE9000F2DE0 /* RBWWWishDetailsEditingController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF62AE661A4D2DE9000F2DE0 /* RBWWWishDetailsEditingController.m */; };
 		BF62AE6A1A4D6B72000F2DE0 /* RBWWNewWishEditingController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF62AE691A4D6B72000F2DE0 /* RBWWNewWishEditingController.m */; };
 		BF62AE701A4FA9BB000F2DE0 /* RBWWFieldEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF62AE6F1A4FA9BB000F2DE0 /* RBWWFieldEditorViewController.m */; };
 		BF62AE731A560A44000F2DE0 /* RBWWUserDataTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF62AE721A560A44000F2DE0 /* RBWWUserDataTabBarController.m */; };
+		BF76FB751AA86F5C00EDAF56 /* RBWWUserProfileTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF76FB741AA86F5C00EDAF56 /* RBWWUserProfileTableViewController.m */; };
+		BF87E4C81AA9AEDB00EC2F06 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = BF87E4C11AA9AEDB00EC2F06 /* UIImage+Alpha.m */; };
+		BF87E4C91AA9AEDB00EC2F06 /* UIImage+AlphaAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BF87E4C31AA9AEDB00EC2F06 /* UIImage+AlphaAdditions.m */; };
+		BF87E4CA1AA9AEDB00EC2F06 /* UIImage+ResizeAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BF87E4C51AA9AEDB00EC2F06 /* UIImage+ResizeAdditions.m */; };
+		BF87E4CB1AA9AEDB00EC2F06 /* UIImage+RoundedCornerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BF87E4C71AA9AEDB00EC2F06 /* UIImage+RoundedCornerAdditions.m */; };
+		BF87E4D11AAD434300EC2F06 /* RBWWImageFileView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF87E4D01AAD434300EC2F06 /* RBWWImageFileView.m */; };
 		BFB646AA1A56136A000C7417 /* RBWWUserRegistrationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB646A91A56136A000C7417 /* RBWWUserRegistrationController.m */; };
-		BFB646AD1A565D2A000C7417 /* RBWWUserProfileController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB646AC1A565D2A000C7417 /* RBWWUserProfileController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +122,12 @@
 		BF18B4A01A35E08900E6D59F /* RBWWWish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBWWWish.m; sourceTree = "<group>"; };
 		BF4FB8101A3BABE200573361 /* RBWWWishDetailsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBWWWishDetailsTableViewController.h; sourceTree = "<group>"; };
 		BF4FB8111A3BABE200573361 /* RBWWWishDetailsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBWWWishDetailsTableViewController.m; sourceTree = "<group>"; };
+		BF594DA71A872E6800014E2B /* RBWWProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBWWProfile.h; sourceTree = "<group>"; };
+		BF594DA81A872E6800014E2B /* RBWWProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBWWProfile.m; sourceTree = "<group>"; };
+		BF594DAA1A9977C800014E2B /* RBWWLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBWWLoginViewController.h; sourceTree = "<group>"; };
+		BF594DAB1A9977C800014E2B /* RBWWLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBWWLoginViewController.m; sourceTree = "<group>"; };
+		BF594DAE1A999D1800014E2B /* RBWWUserDetailsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBWWUserDetailsTableViewController.h; sourceTree = "<group>"; };
+		BF594DAF1A999D1800014E2B /* RBWWUserDetailsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBWWUserDetailsTableViewController.m; sourceTree = "<group>"; };
 		BF62AE651A4D2DE9000F2DE0 /* RBWWWishDetailsEditingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBWWWishDetailsEditingController.h; sourceTree = "<group>"; };
 		BF62AE661A4D2DE9000F2DE0 /* RBWWWishDetailsEditingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBWWWishDetailsEditingController.m; sourceTree = "<group>"; };
 		BF62AE681A4D6B72000F2DE0 /* RBWWNewWishEditingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBWWNewWishEditingController.h; sourceTree = "<group>"; };
@@ -122,10 +136,20 @@
 		BF62AE6F1A4FA9BB000F2DE0 /* RBWWFieldEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBWWFieldEditorViewController.m; sourceTree = "<group>"; };
 		BF62AE711A560A44000F2DE0 /* RBWWUserDataTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBWWUserDataTabBarController.h; sourceTree = "<group>"; };
 		BF62AE721A560A44000F2DE0 /* RBWWUserDataTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBWWUserDataTabBarController.m; sourceTree = "<group>"; };
+		BF76FB731AA86F5C00EDAF56 /* RBWWUserProfileTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBWWUserProfileTableViewController.h; sourceTree = "<group>"; };
+		BF76FB741AA86F5C00EDAF56 /* RBWWUserProfileTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBWWUserProfileTableViewController.m; sourceTree = "<group>"; };
+		BF87E4C01AA9AEDB00EC2F06 /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
+		BF87E4C11AA9AEDB00EC2F06 /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
+		BF87E4C21AA9AEDB00EC2F06 /* UIImage+AlphaAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AlphaAdditions.h"; sourceTree = "<group>"; };
+		BF87E4C31AA9AEDB00EC2F06 /* UIImage+AlphaAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AlphaAdditions.m"; sourceTree = "<group>"; };
+		BF87E4C41AA9AEDB00EC2F06 /* UIImage+ResizeAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ResizeAdditions.h"; sourceTree = "<group>"; };
+		BF87E4C51AA9AEDB00EC2F06 /* UIImage+ResizeAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ResizeAdditions.m"; sourceTree = "<group>"; };
+		BF87E4C61AA9AEDB00EC2F06 /* UIImage+RoundedCornerAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCornerAdditions.h"; sourceTree = "<group>"; };
+		BF87E4C71AA9AEDB00EC2F06 /* UIImage+RoundedCornerAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCornerAdditions.m"; sourceTree = "<group>"; };
+		BF87E4CF1AAD434300EC2F06 /* RBWWImageFileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBWWImageFileView.h; sourceTree = "<group>"; };
+		BF87E4D01AAD434300EC2F06 /* RBWWImageFileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBWWImageFileView.m; sourceTree = "<group>"; };
 		BFB646A81A56136A000C7417 /* RBWWUserRegistrationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBWWUserRegistrationController.h; sourceTree = "<group>"; };
 		BFB646A91A56136A000C7417 /* RBWWUserRegistrationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBWWUserRegistrationController.m; sourceTree = "<group>"; };
-		BFB646AB1A565D2A000C7417 /* RBWWUserProfileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBWWUserProfileController.h; sourceTree = "<group>"; };
-		BFB646AC1A565D2A000C7417 /* RBWWUserProfileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBWWUserProfileController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +225,7 @@
 		BF18B4351A35AE8B00E6D59F /* WishingWell */ = {
 			isa = PBXGroup;
 			children = (
+				BF87E4BF1AA9AEA700EC2F06 /* Categories */,
 				BF62AE6D1A4D8426000F2DE0 /* Views */,
 				BF18B49E1A35E06F00E6D59F /* Model */,
 				BF18B4691A35C19100E6D59F /* Controllers */,
@@ -215,8 +240,6 @@
 		BF18B4361A35AE8B00E6D59F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				08AF68D71A77BC7A006AE29C /* NSDate+NSDate_DateFormtting.h */,
-				08AF68D81A77BC7A006AE29C /* NSDate+NSDate_DateFormtting.m */,
 				BF18B4481A35AE8B00E6D59F /* LaunchScreen.xib */,
 				BF18B4431A35AE8B00E6D59F /* Main.storyboard */,
 				BF18B4371A35AE8B00E6D59F /* Info.plist */,
@@ -283,18 +306,21 @@
 		BF18B4691A35C19100E6D59F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				BF594DAD1A998E2200014E2B /* ProfileControllers */,
 				08806C3A1A841851005DD94B /* RBWWDateFieldEditorViewController.h */,
 				08806C3B1A841851005DD94B /* RBWWDateFieldEditorViewController.m */,
 				08AF68D21A77ADC3006AE29C /* EventsControllers */,
 				BFB646AE1A576608000C7417 /* WishesControllers */,
-				BFB646AB1A565D2A000C7417 /* RBWWUserProfileController.h */,
-				BFB646AC1A565D2A000C7417 /* RBWWUserProfileController.m */,
 				BF62AE6E1A4FA9BB000F2DE0 /* RBWWFieldEditorViewController.h */,
 				BF62AE6F1A4FA9BB000F2DE0 /* RBWWFieldEditorViewController.m */,
 				BF62AE711A560A44000F2DE0 /* RBWWUserDataTabBarController.h */,
 				BF62AE721A560A44000F2DE0 /* RBWWUserDataTabBarController.m */,
 				BFB646A81A56136A000C7417 /* RBWWUserRegistrationController.h */,
 				BFB646A91A56136A000C7417 /* RBWWUserRegistrationController.m */,
+				BF594DAA1A9977C800014E2B /* RBWWLoginViewController.h */,
+				BF594DAB1A9977C800014E2B /* RBWWLoginViewController.m */,
+				BF594DAE1A999D1800014E2B /* RBWWUserDetailsTableViewController.h */,
+				BF594DAF1A999D1800014E2B /* RBWWUserDetailsTableViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -303,6 +329,8 @@
 			isa = PBXGroup;
 			children = (
 				BF18B49F1A35E08900E6D59F /* RBWWWish.h */,
+				BF594DA71A872E6800014E2B /* RBWWProfile.h */,
+				BF594DA81A872E6800014E2B /* RBWWProfile.m */,
 				088F3DEC1A67D6E6000CAE33 /* RBWWEvent.h */,
 				088F3DED1A67D6E6000CAE33 /* RBWWEvent.m */,
 				BF18B4A01A35E08900E6D59F /* RBWWWish.m */,
@@ -310,11 +338,39 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		BF594DAD1A998E2200014E2B /* ProfileControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BF76FB731AA86F5C00EDAF56 /* RBWWUserProfileTableViewController.h */,
+				BF76FB741AA86F5C00EDAF56 /* RBWWUserProfileTableViewController.m */,
+			);
+			name = ProfileControllers;
+			sourceTree = "<group>";
+		};
 		BF62AE6D1A4D8426000F2DE0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BF87E4CF1AAD434300EC2F06 /* RBWWImageFileView.h */,
+				BF87E4D01AAD434300EC2F06 /* RBWWImageFileView.m */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		BF87E4BF1AA9AEA700EC2F06 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				BF87E4C01AA9AEDB00EC2F06 /* UIImage+Alpha.h */,
+				BF87E4C11AA9AEDB00EC2F06 /* UIImage+Alpha.m */,
+				BF87E4C21AA9AEDB00EC2F06 /* UIImage+AlphaAdditions.h */,
+				BF87E4C31AA9AEDB00EC2F06 /* UIImage+AlphaAdditions.m */,
+				BF87E4C41AA9AEDB00EC2F06 /* UIImage+ResizeAdditions.h */,
+				BF87E4C51AA9AEDB00EC2F06 /* UIImage+ResizeAdditions.m */,
+				BF87E4C61AA9AEDB00EC2F06 /* UIImage+RoundedCornerAdditions.h */,
+				BF87E4C71AA9AEDB00EC2F06 /* UIImage+RoundedCornerAdditions.m */,
+				08AF68D71A77BC7A006AE29C /* NSDate+NSDate_DateFormtting.h */,
+				08AF68D81A77BC7A006AE29C /* NSDate+NSDate_DateFormtting.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 		BFB646AE1A576608000C7417 /* WishesControllers */ = {
@@ -434,19 +490,27 @@
 			files = (
 				BF62AE701A4FA9BB000F2DE0 /* RBWWFieldEditorViewController.m in Sources */,
 				BF62AE6A1A4D6B72000F2DE0 /* RBWWNewWishEditingController.m in Sources */,
+				BF87E4D11AAD434300EC2F06 /* RBWWImageFileView.m in Sources */,
 				08806C391A8341D5005DD94B /* RBWWEventDetailsTableViewController.m in Sources */,
 				BFB646AA1A56136A000C7417 /* RBWWUserRegistrationController.m in Sources */,
-				BFB646AD1A565D2A000C7417 /* RBWWUserProfileController.m in Sources */,
 				08AF68D91A77BC7A006AE29C /* NSDate+NSDate_DateFormtting.m in Sources */,
+				BF87E4CB1AA9AEDB00EC2F06 /* UIImage+RoundedCornerAdditions.m in Sources */,
+				BF87E4C91AA9AEDB00EC2F06 /* UIImage+AlphaAdditions.m in Sources */,
+				BF594DB01A999D1800014E2B /* RBWWUserDetailsTableViewController.m in Sources */,
 				BF62AE671A4D2DE9000F2DE0 /* RBWWWishDetailsEditingController.m in Sources */,
 				BF18B43C1A35AE8B00E6D59F /* AppDelegate.m in Sources */,
+				BF87E4CA1AA9AEDB00EC2F06 /* UIImage+ResizeAdditions.m in Sources */,
 				08806C3C1A841851005DD94B /* RBWWDateFieldEditorViewController.m in Sources */,
 				088F3DEE1A67D6E6000CAE33 /* RBWWEvent.m in Sources */,
 				08806C421A841E39005DD94B /* RBWWEventDetailsEditingViewController.m in Sources */,
+				BF76FB751AA86F5C00EDAF56 /* RBWWUserProfileTableViewController.m in Sources */,
 				08AF68D51A77AE6F006AE29C /* RBWWEventsTableViewController.m in Sources */,
 				BF18B4A11A35E08900E6D59F /* RBWWWish.m in Sources */,
 				BF18B49D1A35DEA500E6D59F /* RBWWMyWishesTableViewController.m in Sources */,
+				BF594DAC1A9977C800014E2B /* RBWWLoginViewController.m in Sources */,
+				BF594DA91A872E6800014E2B /* RBWWProfile.m in Sources */,
 				08806C451A848D95005DD94B /* RBWWNewEventEditingViewController.m in Sources */,
+				BF87E4C81AA9AEDB00EC2F06 /* UIImage+Alpha.m in Sources */,
 				BF4FB8121A3BABE200573361 /* RBWWWishDetailsTableViewController.m in Sources */,
 				BF62AE731A560A44000F2DE0 /* RBWWUserDataTabBarController.m in Sources */,
 				BF18B4391A35AE8B00E6D59F /* main.m in Sources */,
@@ -578,6 +642,7 @@
 				INFOPLIST_FILE = WishingWell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -592,6 +657,7 @@
 				INFOPLIST_FILE = WishingWell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
